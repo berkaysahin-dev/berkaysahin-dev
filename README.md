@@ -2,6 +2,11 @@
 
 # Berkay Sahin
 
+<p align="center">
+  <a href="README.md"><b>English</b></a> | <a href="README.tr.md"><b>Türkçe</b></a>
+</p>
+
+
 *Crafting modern web and mobile applications.*
 
 <br/>
