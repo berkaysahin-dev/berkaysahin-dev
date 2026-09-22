@@ -1,0 +1,13 @@
+# --- Security Hardening Auto-Rules ---
+.env
+.env.*
+!.env.example
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.pem
+*.key
+node_modules/
+.next/
+dist/
