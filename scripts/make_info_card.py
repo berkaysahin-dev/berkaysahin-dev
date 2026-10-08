@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
 Generate an ultra-clean, animated Neofetch-style system info card SVG.
-Matches the 840 x 876 canvas of berkay-ascii.svg for a pixel-perfect side-by-side layout.
+Matches the 840 x 884 canvas of berkay-ascii.svg for a pixel-perfect side-by-side layout.
 """
+import html
 import os
 import sys
 
@@ -82,7 +83,7 @@ parts.append(
 
 # Header: berkay@shaz-agency
 header_y = TITLEBAR_H + 48
-parts.append(f'<g class="row" style="animation-delay: 0.15s">')
+parts.append('<g class="row" style="animation-delay: 0.15s">')
 parts.append(f'<text x="{PAD}" y="{header_y}" font-size="22" font-weight="700" fill="{ACCENT_CYAN}">'
              f'berkay<tspan fill="{MUTED}">@</tspan><tspan fill="{ACCENT_GREEN}">shaz-agency</tspan></text>')
 parts.append(f'<line x1="{PAD}" y1="{header_y + 12}" x2="{W - PAD}" y2="{header_y + 12}" stroke="{FRAME}" stroke-dasharray="4 4"/>')
@@ -95,11 +96,13 @@ label_w = 175
 
 for idx, (label, val, val_col) in enumerate(items):
     delay = 0.25 + idx * 0.14
+    safe_label = html.escape(label)
+    safe_val = html.escape(val)
     parts.append(f'<g class="row" style="animation-delay: {delay:.2f}s">')
     parts.append(f'<text x="{PAD}" y="{curr_y}" font-size="18" font-weight="700" fill="{LABEL_COLOR}">'
-                 f'{label}:</text>')
+                 f'{safe_label}:</text>')
     parts.append(f'<text x="{PAD + label_w}" y="{curr_y}" font-size="18" fill="{val_col}">'
-                 f'{val}</text>')
+                 f'{safe_val}</text>')
     parts.append('</g>')
     curr_y += line_height
 
@@ -114,7 +117,7 @@ box_h = 24
 box_gap = 10
 start_x = PAD
 
-parts.append(f'<g class="row" style="animation-delay: 1.8s">')
+parts.append('<g class="row" style="animation-delay: 1.8s">')
 for i, col in enumerate(color_palette):
     bx = start_x + i * (box_w + box_gap)
     parts.append(f'<rect x="{bx}" y="{curr_y}" width="{box_w}" height="{box_h}" rx="4" fill="{col}"/>')
@@ -126,9 +129,9 @@ parts.append('</g>')
 
 # Footer terminal prompt
 footer_y = H - 24
-parts.append(f'<g class="row" style="animation-delay: 2.1s">')
+parts.append('<g class="row" style="animation-delay: 2.1s">')
 parts.append(f'<text x="{PAD}" y="{footer_y}" font-size="14" fill="{MUTED}">'
-             f'berkay@github:~$ <tspan fill="{ACCENT_GREEN}">uptime</tspan> — Building the future of digital software</text>')
+             f'berkay@github:~$ <tspan fill="{ACCENT_GREEN}">uptime</tspan> &#8212; Building the future of digital software</text>')
 parts.append('</g>')
 
 parts.append('</svg>')
