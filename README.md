@@ -18,7 +18,7 @@
 <table>
 <tr>
 <td valign="top"><img src="./berkay-ascii.svg" width="420" alt="Berkay Şahin — Terminal ASCII" /></td>
-<td valign="top"><img src="./info-card.svg" width="420" alt="Berkay Şahin — Neofetch Info Card" /></td>
+<td valign="top"><img src="./info-card.svg?v=2" width="420" alt="Berkay Şahin — Neofetch Info Card" /></td>
 </tr>
 </table>
 
