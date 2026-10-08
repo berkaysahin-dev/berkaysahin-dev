@@ -5,7 +5,7 @@
 
 <h3><code>berkay@github ~ $ ./contributions.sh</code></h3>
 
-<img src="./contrib-heatmap.svg" width="860" alt="Berkay's GitHub contribution graph — auto-refreshed daily" />
+<img src="./contrib-heatmap.svg?v=2" width="860" alt="Berkay's GitHub contribution graph — auto-refreshed daily" />
 
 <br>
 <br>
