@@ -9,7 +9,7 @@
 
 <br/><br/>
 
-<!-- ================= PHASE 2: SELF-HOSTED STATS CARDS ================= -->
+<!-- ================= PHASE 2: STATS CARDS ================= -->
 <img width="100%" src="https://streak-stats.demolab.com/?user=berkaysahin-dev&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" alt="Streak Stats" />
 <br/>
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=berkaysahin-dev&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="GitHub Stats" />
@@ -19,9 +19,9 @@
 
 <!-- ================= PHASE 3: CONTRIBUTION SNAKE ================= -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/output/github-snake.svg" />
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/output/github-snake-dark.svg?v=1" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/output/github-snake.svg?v=1" />
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/output/github-snake.svg?v=1" />
 </picture>
 
 <br/><br/>
@@ -40,7 +40,7 @@
 </a>
 &nbsp;&nbsp;
 <a href="https://shazagency.com">
-  <img src="https://img.shields.io/badge/Shaz_Agency-0A101F?style=for-the-badge&logo=googlechrome&logoColor=A78BFA&labelColor=0A101F" alt="Shaz Agency" />
+  <img src="https://img.shields.io/badge/Agency-0A101F?style=for-the-badge&logo=googlechrome&logoColor=A78BFA&labelColor=0A101F" alt="Shaz Agency" />
 </a>
 
 <br/>
