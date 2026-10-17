@@ -1,17 +1,17 @@
 {
   "username": "berkaysahin-dev",
-  "generated_at": "2026-10-16T11:18:46Z",
+  "generated_at": "2026-10-17T10:38:37Z",
   "range": {
     "start": "2025-10-12",
-    "end": "2026-10-16"
+    "end": "2026-10-17"
   },
-  "total_contributions": 1876,
-  "active_days": 301,
+  "total_contributions": 1874,
+  "active_days": 302,
   "avg_per_active_day": 6.2,
   "current_streak": {
-    "length": 16,
+    "length": 17,
     "start": "2026-10-01",
-    "end": "2026-10-16"
+    "end": "2026-10-17"
   },
   "longest_streak": {
     "length": 27,
@@ -73,7 +73,7 @@
     },
     {
       "month": "2026-10",
-      "total": 91
+      "total": 89
     }
   ],
   "days": [
@@ -1864,23 +1864,23 @@
     },
     {
       "date": "2026-10-04",
-      "count": 4,
-      "level": 2
+      "count": 2,
+      "level": 1
     },
     {
       "date": "2026-10-05",
-      "count": 7,
-      "level": 3
-    },
-    {
-      "date": "2026-10-06",
       "count": 8,
       "level": 3
     },
     {
+      "date": "2026-10-06",
+      "count": 5,
+      "level": 2
+    },
+    {
       "date": "2026-10-07",
-      "count": 11,
-      "level": 4
+      "count": 8,
+      "level": 3
     },
     {
       "date": "2026-10-08",
@@ -1889,7 +1889,7 @@
     },
     {
       "date": "2026-10-09",
-      "count": 2,
+      "count": 1,
       "level": 1
     },
     {
@@ -1924,8 +1924,13 @@
     },
     {
       "date": "2026-10-16",
-      "count": 9,
-      "level": 3
+      "count": 13,
+      "level": 4
+    },
+    {
+      "date": "2026-10-17",
+      "count": 2,
+      "level": 1
     }
   ]
 }
