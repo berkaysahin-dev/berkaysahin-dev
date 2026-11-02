@@ -2,18 +2,18 @@
 
 <!-- Animated Terminal Banner -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/main/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/main/light.svg">
-  <img alt="Berkay Şahin Profile Banner" src="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/main/dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/main/dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/main/light.svg?v=2">
+  <img alt="Berkay Şahin Profile Banner" src="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/main/dark.svg?v=2" width="100%">
 </picture>
 
 <br/><br/>
 
 <!-- Contribution Snake -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/output/github-snake-dark.svg?v=1" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/output/github-snake.svg?v=1" />
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/output/github-snake.svg?v=1" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/output/github-snake-dark.svg?v=2" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/output/github-snake.svg?v=2" />
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/output/github-snake.svg?v=2" width="100%" />
 </picture>
 
 <br/><br/>
@@ -32,7 +32,7 @@
 </a>
 &nbsp;&nbsp;
 <a href="https://shazagency.com">
-  <img src="https://img.shields.io/badge/Agency-0A101F?style=for-the-badge&logo=googlechrome&logoColor=A78BFA&labelColor=0A101F" alt="Shaz Agency" />
+  <img src="https://img.shields.io/badge/Agency-0A101F?style=for-the-badge&logo=googlechrome&logoColor=22D3EE&labelColor=0A101F" alt="Shaz Agency" />
 </a>
 
 <br/>
