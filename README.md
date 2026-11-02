@@ -2,18 +2,18 @@
 
 <!-- Animated Terminal Banner -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/main/dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/main/light.svg?v=2">
-  <img alt="Berkay Şahin Profile Banner" src="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/main/dark.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/main/dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/main/light.svg?v=3">
+  <img alt="Berkay Şahin Profile Banner" src="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/main/dark.svg?v=3" width="100%">
 </picture>
 
 <br/><br/>
 
 <!-- Contribution Snake -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/output/github-snake-dark.svg?v=2" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/output/github-snake.svg?v=2" />
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/output/github-snake.svg?v=2" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/main/github-snake-dark.svg?v=3" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/main/github-snake.svg?v=3" />
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/berkaysahin-dev/berkaysahin-dev/main/github-snake.svg?v=3" width="100%" />
 </picture>
 
 <br/><br/>
